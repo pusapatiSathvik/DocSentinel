@@ -1,6 +1,12 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Problem Statement
+
+Sensitive documents (e.g., financial reports, confidential memos) are sent to groups via email or WhatsApp.
+
+No control once it’s sent (anyone can forward, save, screenshot).
+
+No audit trail of who accessed it.
 
 ## Available Scripts
 
