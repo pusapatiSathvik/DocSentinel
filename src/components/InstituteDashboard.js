@@ -4,6 +4,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { jwtDecode } from 'jwt-decode';
 import GroupsPage from './GroupsPage';
+import DocumentUploader from './DocumentUploader';
 const API_URL = process.env.REACT_APP_API_URL;
 
 const InstituteDashboard = () => {
@@ -318,6 +319,9 @@ const InstituteDashboard = () => {
 
             <Tabs defaultActiveKey="groups" id="institute-dashboard-tabs" className="mb-3">
 
+                <Tab eventKey="Share Documents" title={`ShareDocuments`}>
+                    <DocumentUploader />
+                </Tab>
                 <Tab eventKey="groups" title={`Groups`}>
                     <GroupsPage />
                 </Tab>
